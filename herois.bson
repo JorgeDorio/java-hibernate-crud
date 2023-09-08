@@ -1,0 +1,66 @@
+db.hero.insertMany([
+    {
+        "Nome": "Visão",
+        "Idade": 5,
+        "Categoria de Poder": 6,
+        "Origem": "Desconhecida",
+        "Poderes": ["Desconhecido"],
+        "Data de Nascimento": new ISODate("1212-12-12")
+    },
+    {
+        "Nome": "Feiticeira Escarlate",
+        "Poderes": ["Ruiva"],
+        "Idade": 35,
+        "Categoria de Poder": 4,
+        "Origem": "Desconhecida",
+        "Data de Nascimento": new ISODate("1998-12-12")
+    },
+    {
+        "Nome": "Falcão",
+        "Idade": 35,
+        "Categoria de Poder": 4,
+        "Origem": "Desconhecida",
+        "Poderes": ["Voo"],
+        "Data de Nascimento": new ISODate("1897-12-12")
+    },
+    {
+        "Nome": "Homem-Aranha",
+        "Idade": 30,
+        "Categoria de Poder": 5,
+        "Origem": "Desconhecida",
+        "Poderes": ["Agilidade", "Sentido Aranha", "Teia"],
+        "Data de Nascimento": new ISODate("1995-12-12")
+    },
+    {
+        "Nome": "Homem-Formiga",
+        "Idade": 40,
+        "Categoria de Poder": 4,
+        "Origem": "Desconhecida",
+        "Poderes": ["Encolhe", "Aumenta", "Comunicação com Formigas"],
+        "Data de Nascimento": new ISODate("1980-12-12")
+    },
+    {
+        "Nome": "Soldado Invernal",
+        "Idade": 35,
+        "Categoria de Poder": 4,
+        "Origem": "Desconhecida",
+        "Poderes": ["Bodybuilder"],
+        "Data de Nascimento": new ISODate("1975-12-12")
+    },
+    {
+        "Nome": "Máquina de Combate",
+        "Idade": 35,
+        "Categoria de Poder": 4,
+        "Origem": "Desconhecida",
+        "Poderes": ["Armadura top"],
+        "Data de Nascimento": new ISODate("1975-12-12")
+    },
+    {
+        "Nome": "Gavião Arqueiro",
+        "Idade": 40,
+        "Categoria de Poder": 4,
+        "Origem": "Desconhecida",
+        "Poderes": ["Precisão com Arco e Flechas"],
+        "Data de Nascimento": new ISODate("1970-12-12")
+    }
+]);
